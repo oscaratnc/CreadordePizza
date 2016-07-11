@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7013EA6A1D32FD860036C187 /* PizzaTerminada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7013EA691D32FD860036C187 /* PizzaTerminada.swift */; };
+		7040FC6F1D33108800B47422 /* TamañoPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7040FC6E1D33108800B47422 /* TamañoPizza.swift */; };
+		7040FC711D3310AD00B47422 /* MasaPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7040FC701D3310AD00B47422 /* MasaPizza.swift */; };
+		7040FC731D3310D200B47422 /* TipodeQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7040FC721D3310D200B47422 /* TipodeQueso.swift */; };
+		7040FC751D33125100B47422 /* Ingredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7040FC741D33125100B47422 /* Ingredients.swift */; };
 		70FA22E91D3194FB00C09E4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FA22E81D3194FB00C09E4D /* AppDelegate.swift */; };
 		70FA22EB1D3194FB00C09E4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FA22EA1D3194FB00C09E4D /* ViewController.swift */; };
 		70FA22EE1D3194FB00C09E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70FA22EC1D3194FB00C09E4D /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7013EA691D32FD860036C187 /* PizzaTerminada.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaTerminada.swift; sourceTree = "<group>"; };
+		7040FC6E1D33108800B47422 /* TamañoPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TamañoPizza.swift"; sourceTree = "<group>"; };
+		7040FC701D3310AD00B47422 /* MasaPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasaPizza.swift; sourceTree = "<group>"; };
+		7040FC721D3310D200B47422 /* TipodeQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipodeQueso.swift; sourceTree = "<group>"; };
+		7040FC741D33125100B47422 /* Ingredients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredients.swift; sourceTree = "<group>"; };
 		70FA22E51D3194FB00C09E4D /* PIZZA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PIZZA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FA22E81D3194FB00C09E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70FA22EA1D3194FB00C09E4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +70,11 @@
 				70FA22EF1D3194FB00C09E4D /* Assets.xcassets */,
 				70FA22F11D3194FB00C09E4D /* LaunchScreen.storyboard */,
 				70FA22F41D3194FB00C09E4D /* Info.plist */,
+				7040FC6E1D33108800B47422 /* TamañoPizza.swift */,
+				7040FC701D3310AD00B47422 /* MasaPizza.swift */,
+				7040FC721D3310D200B47422 /* TipodeQueso.swift */,
+				7040FC741D33125100B47422 /* Ingredients.swift */,
+				7013EA691D32FD860036C187 /* PizzaTerminada.swift */,
 			);
 			path = PIZZA;
 			sourceTree = "<group>";
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7040FC751D33125100B47422 /* Ingredients.swift in Sources */,
+				7040FC711D3310AD00B47422 /* MasaPizza.swift in Sources */,
 				70FA22EB1D3194FB00C09E4D /* ViewController.swift in Sources */,
 				70FA22E91D3194FB00C09E4D /* AppDelegate.swift in Sources */,
+				7040FC731D3310D200B47422 /* TipodeQueso.swift in Sources */,
+				7013EA6A1D32FD860036C187 /* PizzaTerminada.swift in Sources */,
+				7040FC6F1D33108800B47422 /* TamañoPizza.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +306,7 @@
 				70FA22F91D3194FB00C09E4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
